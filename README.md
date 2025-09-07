@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```bash
 python FL_train.py --alg fedrefiner --model resnet18 --dataset RS-5 --noise_rate 0.8 --noise_pattern symmetric
 ```
-More settings can be found in `args.py`.
+More settings can be found in `args.py`. Please load the dataset (refer to [FedRS](https://fedrs-bench.github.io/) to download these datasets) into `./dataset`. In `./dataset`, there should be two sub folders `FedRS` and `FedRS-5`.
 
 
 ## Model Scalability
